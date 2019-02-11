@@ -35,3 +35,9 @@ expanded_dict = {'team': 'Justice League', **traditional_dict}
 
 # Making a dictionary from a list of tuples
 dict_from_list = dict([('name': 'Superman'), ('secret': 'Clark Kent')])
+
+# inverse the key and the value
+# inv_dict = {'Superman': 'name', 'Clark Kent': 'secret'}
+inv_dict = {value: key for key, value in traditional_dict.items()}
+
+
