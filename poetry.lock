@@ -1,0 +1,45 @@
+[[package]]
+category = "main"
+description = "An unladen web framework for building APIs and app backends."
+name = "falcon"
+optional = false
+python-versions = "*"
+version = "1.4.1"
+
+[package.dependencies]
+python-mimeparse = ">=1.5.2"
+six = ">=1.4.0"
+
+[[package]]
+category = "main"
+description = "WSGI HTTP Server for UNIX"
+name = "gunicorn"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*"
+version = "19.9.0"
+
+[[package]]
+category = "main"
+description = "A module provides basic functions for parsing mime-type names and matching them against a list of media-ranges."
+name = "python-mimeparse"
+optional = false
+python-versions = "*"
+version = "1.6.0"
+
+[[package]]
+category = "main"
+description = "Python 2 and 3 compatibility utilities"
+name = "six"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*"
+version = "1.12.0"
+
+[metadata]
+content-hash = "64da595986e57752ff39b4c82295c31338a3b6d18f82832b3bdf3977e644a8a5"
+python-versions = "^3.6"
+
+[metadata.hashes]
+falcon = ["0a66b33458fab9c1e400a9be1a68056abda178eb02a8cb4b8f795e9df20b053b", "3981f609c0358a9fcdb25b0e7fab3d9e23019356fb429c635ce4133135ae1bc4"]
+gunicorn = ["aa8e0b40b4157b36a5df5e599f45c9c76d6af43845ba3b3b0efe2c70473c2471", "fa2662097c66f920f53f70621c6c58ca4a3c4d3434205e608e121b5b3b71f4f3"]
+python-mimeparse = ["76e4b03d700a641fd7761d3cd4fdbbdcd787eade1ebfac43f877016328334f78", "a295f03ff20341491bfe4717a39cd0a8cc9afad619ba44b77e86b0ab8a2b8282"]
+six = ["3350809f0555b11f552448330d0b52d5f24c91a322ea4a15ef22629740f3761c", "d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"]
