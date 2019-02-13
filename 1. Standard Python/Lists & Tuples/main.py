@@ -29,3 +29,14 @@ for i in range(0, len(tup)):
     print(tup[i])
 for item in tup:
     print(item)
+
+# Named tuples examples
+from collections import namedtuple
+
+color = namedtuple('color', ['hue', 'saturation', 'brightness'])
+
+p = color(170, 20, 50)
+if p.hue > 100:             # instead of p[0]
+    print('do something')
+if p.saturation <= 50:      # instead of p[1]
+    print('do something')
