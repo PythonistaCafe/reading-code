@@ -39,5 +39,5 @@ dict_from_list = dict([('name': 'Superman'), ('secret': 'Clark Kent')])
 # inverse the key and the value
 # inv_dict = {'Superman': 'name', 'Clark Kent': 'secret'}
 inv_dict = {value: key for key, value in traditional_dict.items()}
-
-
+# This is not a perfect inverse, since there is no guarantee that two keys do not
+# have the same value.
