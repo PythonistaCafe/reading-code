@@ -40,3 +40,8 @@ if p.hue > 100:             # instead of p[0]
     print('do something')
 if p.saturation <= 50:      # instead of p[1]
     print('do something')
+
+# Apply the same behaviour to all items of a list - here add 2 to each number
+list_of_int = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+new_list = list(map((lambda x: x + 2), list_of_int))
+# new_list = [3, 4, 5, 6, 7, 8, 9, 10, 11]
